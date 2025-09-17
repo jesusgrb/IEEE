@@ -1,0 +1,92 @@
+﻿#METADATA,,,,,,,,,,,,,,,,,
+#Channel identifier,Info_Respondent_Name,Info_Respondent_Gender,Info_Respondent_Age,Info_Respondent_Group,Info_Interval_Type,Info_Interval_Label,Info_Interval_Start,Info_Interval_Duration,Info_Interval_ParentStimulus,Info_Interval_Comment,GSR_PDMetrics_SignalDuration,GSR_PDMetrics_HasPeaks,GSR_PDMetrics_PeakCount,GSR_PDMetrics_PeaksPerMinute,GSR_PDMetrics_AveragePeakAmplitude,GSR_SQMetrics_SignalToNoiseRatio,GSR_SQMetrics_SignalMissing
+#Group,Respondent Info,Respondent Info,Respondent Info,Respondent Info,Interval Info,Interval Info,Interval Info,Interval Info,Interval Info,Interval Info,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR Signal Quality Metrics,GSR Signal Quality Metrics
+#Unit,,,,,,,Milliseconds,Milliseconds,,,Milliseconds,,,,Microsiemens,Decibel,Percentage
+#Short unit,,,,,,,ms,ms,,,ms,,,,µS,dB,%
+#Description,Name of the respondent.,Gender of the respondent.,Age of the respondent.,Group of the respondent.,Type of the interval that the metrics refers to.,Name of the interval.,Start time of the interval (relative to recording start).,Duration of the interval.,Name of the parent.,Comment that was added to the interval.,"Duration of the 'GSR Interpolated' signal, excluding the gaps that exceeded the selected gap interpolation length threshold.","Binary value, indicating whether the respondent had any peaks (1) or none (0) during this interval.",Count of peaks detected during this interval.,"Average count of peaks detected per minute for this interval (i.e. the count of peaks detected during this interval, or 'Peak Count', divided by the interval duration, or 'Duration (ms)', times 60000).","Average amplitude of all peaks during this interval, for a given respondent (i.e. the difference between the maximum value of the 'GSR Interpolated' signal during the peak and its value at the onset).",Ratio of signal power to noise power. SNR above 0 dB means more signal than noise. SNR above 20 dB means less than 1% noise.,Percentage of missing data samples in relation to stimulus duration.
+#Device,,,,,,,,,,,Shimmer Shimmer1 FD27 GSR,Shimmer Shimmer1 FD27 GSR,Shimmer Shimmer1 FD27 GSR,Shimmer Shimmer1 FD27 GSR,Shimmer Shimmer1 FD27 GSR,Shimmer Shimmer1 FD27 GSR,Shimmer Shimmer1 FD27 GSR
+#AlgorithmType,,,,,,,,,,,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Signal Quality,GSR Signal Quality
+#Flow Name,,,,,,,,,,,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Signal Quality,GSR Signal Quality
+#DATA,,,,,,,,,,,,,,,,,
+Study Name,Respondent Name,Gender,Age,Group,Type,Label,Start (ms),Duration (ms),Parent Stimulus,Comment,Signal Duration,Has Peaks,Peak Count,Peaks Per Minute,Average Peak Amplitude,Signal-To-Noise Ratio,Signal Missing
+2. IAD Videojuegos y activacion emocional v2,Alonso,MALE,21,Default,Stimulus,destreza,151,291065,,,291065,1,41,8.45,0.0916,41.29,0.21
+2. IAD Videojuegos y activacion emocional v2,Alonso,MALE,21,Default,Stimulus,ejercicio,291224,321990,,,321990,1,11,2.05,0.0322,40.8,0.28
+2. IAD Videojuegos y activacion emocional v2,Alonso,MALE,21,Default,Stimulus,terror,613222,319137,,,319137,1,42,7.9,0.1347,25.39,0.59
+2. IAD Videojuegos y activacion emocional v2,"Ana ",FEMALE,21,Default,Stimulus,terror,171,423165,,,423165,1,83,11.77,0.1173,41.64,0.25
+2. IAD Videojuegos y activacion emocional v2,"Ana ",FEMALE,21,Default,Stimulus,ejercicio,423346,349078,,,349078,1,41,7.05,0.0829,38.58,0.12
+2. IAD Videojuegos y activacion emocional v2,"Ana ",FEMALE,21,Default,Stimulus,destreza,772435,333245,,,333245,1,47,8.46,0.1313,31.49,0.3
+2. IAD Videojuegos y activacion emocional v2,Andres,MALE,19,Default,Stimulus,ejercicio,155,311660,,,311660,1,9,1.73,0.0212,40.88,0.53
+2. IAD Videojuegos y activacion emocional v2,Andres,MALE,19,Default,Stimulus,terror,311827,151357,,,151357,1,13,5.15,0.0407,41.85,0.49
+2. IAD Videojuegos y activacion emocional v2,Andres,MALE,19,Default,Stimulus,destreza,463192,309552,,,309552,1,35,6.78,0.036,31.05,0.4
+2. IAD Videojuegos y activacion emocional v2,Bernardo,MALE,21,Default,Stimulus,destreza,199,313936,,,313936,1,95,18.16,0.1583,45.43,0.11
+2. IAD Videojuegos y activacion emocional v2,Bernardo,MALE,21,Default,Stimulus,ejercicio,314148,311791,,,311791,1,52,10.01,0.111,41.02,0.45
+2. IAD Videojuegos y activacion emocional v2,Bernardo,MALE,21,Default,Stimulus,terror,625947,314654,,,314654,1,66,12.59,0.2176,44.6,0.04
+2. IAD Videojuegos y activacion emocional v2,Carlos,MALE,23,Default,Stimulus,terror,169,319151,,,319151,1,45,8.46,0.0705,36.78,0.3
+2. IAD Videojuegos y activacion emocional v2,Carlos,MALE,23,Default,Stimulus,ejercicio,319362,312926,,,312926,1,20,3.83,0.0235,29.53,0.51
+2. IAD Videojuegos y activacion emocional v2,Carlos,MALE,23,Default,Stimulus,destreza,632299,304215,,,304215,1,65,12.82,0.1685,33.62,0.36
+2. IAD Videojuegos y activacion emocional v2,Carlos,MALE,24,Default,Stimulus,terror,168,319337,,,319337,1,75,14.09,0.116,44.5,0.2
+2. IAD Videojuegos y activacion emocional v2,Carlos,MALE,24,Default,Stimulus,ejercicio,319518,316858,,,316858,1,76,14.39,0.1152,37.02,0.62
+2. IAD Videojuegos y activacion emocional v2,Carlos,MALE,24,Default,Stimulus,destreza,636385,278782,,,278782,1,77,16.57,0.1004,47.12,0.33
+2. IAD Videojuegos y activacion emocional v2,Christel,FEMALE,21,Default,Stimulus,ejercicio,153,292267,,,292267,1,20,4.11,0.0391,48.55,0.25
+2. IAD Videojuegos y activacion emocional v2,Christel,FEMALE,21,Default,Stimulus,terror,292435,311900,,,311900,1,19,3.66,0.049,51.14,0.19
+2. IAD Videojuegos y activacion emocional v2,Christel,FEMALE,21,Default,Stimulus,destreza,604356,311456,,,311456,1,24,4.62,0.0579,46.35,0.26
+2. IAD Videojuegos y activacion emocional v2,Diego,MALE,19,Default,Stimulus,ejercicio,213,280888,,,280888,1,37,7.9,0.0481,33.7,0.28
+2. IAD Videojuegos y activacion emocional v2,Diego,MALE,19,Default,Stimulus,terror,281113,350970,,,350970,1,69,11.8,0.0879,33.04,0.55
+2. IAD Videojuegos y activacion emocional v2,Diego,MALE,19,Default,Stimulus,destreza,632093,345949,,,345949,1,80,13.87,0.2692,30.6,0.56
+2. IAD Videojuegos y activacion emocional v2,Hector Emiliano,MALE,22,Default,Stimulus,terror,166,375171,,,375171,1,34,5.44,0.0241,49.46,0.2
+2. IAD Videojuegos y activacion emocional v2,Hector Emiliano,MALE,22,Default,Stimulus,ejercicio,375353,252233,,,252233,1,18,4.28,0.0305,38.17,0.22
+2. IAD Videojuegos y activacion emocional v2,Hector Emiliano,MALE,22,Default,Stimulus,destreza,627612,305212,,,305212,1,24,4.72,0.0651,42.73,0.13
+2. IAD Videojuegos y activacion emocional v2,Ian,MALE,20,Default,Stimulus,terror,152,312206,,,312206,1,45,8.65,0.2034,39.52,0.24
+2. IAD Videojuegos y activacion emocional v2,Ian,MALE,20,Default,Stimulus,destreza,312371,325787,,,325787,1,78,14.37,0.343,40.32,0.4
+2. IAD Videojuegos y activacion emocional v2,Ian,MALE,20,Default,Stimulus,ejercicio,638170,310636,,,310636,1,59,11.4,0.2156,35.57,0.19
+2. IAD Videojuegos y activacion emocional v2,Itzel,FEMALE,24,Default,Stimulus,ejercicio,152,312802,,,312802,1,20,3.84,0.0269,51.68,0.27
+2. IAD Videojuegos y activacion emocional v2,Itzel,FEMALE,24,Default,Stimulus,destreza,312968,316548,,,316548,1,54,10.24,0.0955,44.9,0.34
+2. IAD Videojuegos y activacion emocional v2,Itzel,FEMALE,24,Default,Stimulus,terror,629528,291579,,,291579,1,17,3.5,0.0548,42.98,0.54
+2. IAD Videojuegos y activacion emocional v2,Jaime,MALE,20,Default,Stimulus,terror,203,313003,,,313003,1,44,8.43,0.1144,48.35,0.29
+2. IAD Videojuegos y activacion emocional v2,Jaime,MALE,20,Default,Stimulus,ejercicio,313221,364455,,,364455,1,42,6.91,0.0701,41.95,0.28
+2. IAD Videojuegos y activacion emocional v2,Jaime,MALE,20,Default,Stimulus,destreza,677685,311610,,,311610,1,38,7.32,0.1218,49.3,0.22
+2. IAD Videojuegos y activacion emocional v2,Linda,FEMALE,19,Default,Stimulus,terror,145,320096,,,320096,1,41,7.69,0.0714,45.76,0.23
+2. IAD Videojuegos y activacion emocional v2,Linda,FEMALE,19,Default,Stimulus,ejercicio,320267,314045,,,314045,1,27,5.16,0.0994,56.44,0.37
+2. IAD Videojuegos y activacion emocional v2,Linda,FEMALE,19,Default,Stimulus,destreza,634337,327144,,,327144,1,51,9.35,0.1275,47.28,0.28
+2. IAD Videojuegos y activacion emocional v2,Lourdes,FEMALE,40,Default,Stimulus,ejercicio,152,313367,,,313367,1,13,2.49,0.0226,57.41,0.08
+2. IAD Videojuegos y activacion emocional v2,Lourdes,FEMALE,40,Default,Stimulus,destreza,313543,297587,,,297587,1,29,5.85,0.0989,48.3,0.17
+2. IAD Videojuegos y activacion emocional v2,Lourdes,FEMALE,40,Default,Stimulus,terror,611139,361620,,,361620,1,27,4.48,0.0911,41.86,0.34
+2. IAD Videojuegos y activacion emocional v2,Miguel Angel,OTHER,21,Default,Stimulus,ejercicio,119,317220,,,317220,1,33,6.24,0.0735,43.35,0.15
+2. IAD Videojuegos y activacion emocional v2,Miguel Angel,OTHER,21,Default,Stimulus,destreza,317372,28,,,28,0,0,0,NA,NA,0
+2. IAD Videojuegos y activacion emocional v2,Miguel Angel,OTHER,21,Default,Stimulus,terror,317408,1682,,,1682,1,1,35.68,0.0613,16.16,0
+2. IAD Videojuegos y activacion emocional v2,Miguel Angel 2,OTHER,21,Default,Stimulus,ejercicio,225,1518,,,1518,0,0,0,NA,17.76,0
+2. IAD Videojuegos y activacion emocional v2,Miguel Angel 2,OTHER,21,Default,Stimulus,terror,1754,315942,,,315942,1,62,11.77,0.1513,47.39,0.26
+2. IAD Videojuegos y activacion emocional v2,Miguel Angel 2,OTHER,21,Default,Stimulus,destreza,317705,233007,,,233007,1,49,12.62,0.1471,32.24,0.52
+2. IAD Videojuegos y activacion emocional v2,Miranda,FEMALE,20,Default,Stimulus,ejercicio,147,310494,,,310494,1,9,1.74,0.022,47,0.25
+2. IAD Videojuegos y activacion emocional v2,Miranda,FEMALE,20,Default,Stimulus,terror,310660,329164,,,329164,1,30,5.47,0.0463,42.85,0.33
+2. IAD Videojuegos y activacion emocional v2,Miranda,FEMALE,20,Default,Stimulus,destreza,639836,323036,,,323036,1,33,6.13,0.0461,48.47,0.56
+2. IAD Videojuegos y activacion emocional v2,Montse,OTHER,20,Default,Stimulus,terror,154,316329,,,316329,1,58,11,0.0722,41.8,0.09
+2. IAD Videojuegos y activacion emocional v2,Montse,OTHER,20,Default,Stimulus,ejercicio,316497,306185,,,306185,1,37,7.25,0.0833,41.43,0.89
+2. IAD Videojuegos y activacion emocional v2,Montse,OTHER,20,Default,Stimulus,destreza,622709,318118,,,318118,1,51,9.62,0.093,41.96,0.1
+2. IAD Videojuegos y activacion emocional v2,Natalia,OTHER,21,Default,Stimulus,terror,112,320654,,,320654,1,88,16.47,0.2474,44.31,0.07
+2. IAD Videojuegos y activacion emocional v2,Natalia,OTHER,21,Default,Stimulus,ejercicio,320776,320478,,,320478,1,75,14.04,0.4108,35.9,0.26
+2. IAD Videojuegos y activacion emocional v2,Natalia,OTHER,21,Default,Stimulus,destreza,641261,306239,,,306239,1,83,16.26,0.5072,37.81,0.53
+2. IAD Videojuegos y activacion emocional v2,Paola,FEMALE,20,Default,Stimulus,destreza,156,319894,,,319894,1,64,12,0.1221,41.27,0.23
+2. IAD Videojuegos y activacion emocional v2,Paola,FEMALE,20,Default,Stimulus,terror,320062,326726,,,326726,1,61,11.2,0.1405,43.98,0.26
+2. IAD Videojuegos y activacion emocional v2,Paola,FEMALE,20,Default,Stimulus,ejercicio,646801,291882,,,291882,1,48,9.87,0.1656,46.24,0
+2. IAD Videojuegos y activacion emocional v2,Paola,OTHER,20,Default,Stimulus,ejercicio,134,306590,,,306590,1,50,9.79,0.106,39.17,0.16
+2. IAD Videojuegos y activacion emocional v2,Paola,OTHER,20,Default,Stimulus,terror,306747,356242,,,356242,1,51,8.59,0.1874,40.76,0.11
+2. IAD Videojuegos y activacion emocional v2,Paola,OTHER,20,Default,Stimulus,destreza,663029,305249,,,305249,1,58,11.4,0.2509,34.97,0.05
+2. IAD Videojuegos y activacion emocional v2,Patricio,OTHER,22,Default,Stimulus,destreza,149,256427,,,256427,1,30,7.02,0.0343,44.6,0.94
+2. IAD Videojuegos y activacion emocional v2,Patricio,OTHER,22,Default,Stimulus,ejercicio,256585,307001,,,307001,1,5,0.98,0.0224,41.39,0.37
+2. IAD Videojuegos y activacion emocional v2,Patricio,OTHER,22,Default,Stimulus,terror,563606,313361,,,313361,1,26,4.98,0.0247,39.62,0.06
+2. IAD Videojuegos y activacion emocional v2,Pedro,MALE,22,Default,Stimulus,terror,154,424368,,,424368,1,91,12.87,0.11,42.58,0.24
+2. IAD Videojuegos y activacion emocional v2,Pedro,MALE,22,Default,Stimulus,destreza,424530,308719,,,308719,1,73,14.19,0.067,34.1,0.1
+2. IAD Videojuegos y activacion emocional v2,Pedro,MALE,22,Default,Stimulus,ejercicio,733261,311544,,,311544,1,49,9.44,0.0911,36.4,0
+2. IAD Videojuegos y activacion emocional v2,Raquel,FEMALE,22,Default,Stimulus,terror,155,333993,,,333993,1,31,5.57,0.0555,50.32,0.18
+2. IAD Videojuegos y activacion emocional v2,Raquel,FEMALE,22,Default,Stimulus,ejercicio,334164,333343,,,333343,0,0,0,NA,56.01,0.1
+2. IAD Videojuegos y activacion emocional v2,Raquel,FEMALE,22,Default,Stimulus,destreza,667525,324831,,,324831,1,6,1.11,0.0164,40.22,0.56
+2. IAD Videojuegos y activacion emocional v2,Uriel,MALE,20,Default,Stimulus,ejercicio,133,293748,,,293748,1,14,2.86,0.0129,41.21,0.26
+2. IAD Videojuegos y activacion emocional v2,Uriel,MALE,20,Default,Stimulus,destreza,293893,311437,,,311437,1,28,5.39,0.0216,36.45,0.15
+2. IAD Videojuegos y activacion emocional v2,Uriel,MALE,20,Default,Stimulus,terror,605359,308963,,,308963,1,33,6.41,0.0346,36.13,0.51
+2. IAD Videojuegos y activacion emocional v2,alondra,FEMALE,21,Default,Stimulus,terror,139,359475,,,359475,1,76,12.69,0.1798,43.27,0
+2. IAD Videojuegos y activacion emocional v2,alondra,FEMALE,21,Default,Stimulus,destreza,359625,341076,,,341076,1,39,6.86,0.0628,42.69,0.92
+2. IAD Videojuegos y activacion emocional v2,alondra,FEMALE,21,Default,Stimulus,ejercicio,700709,344906,,,344906,1,58,10.09,0.2954,49.54,0.43
+2. IAD Videojuegos y activacion emocional v2,braulio,MALE,21,Default,Stimulus,terror,130,383193,,,383193,1,59,9.24,0.2034,41.89,0.25
+2. IAD Videojuegos y activacion emocional v2,braulio,MALE,21,Default,Stimulus,destreza,383356,333679,,,333679,1,70,12.59,0.0844,27.64,0.24
+2. IAD Videojuegos y activacion emocional v2,braulio,MALE,21,Default,Stimulus,ejercicio,717053,317661,,,317661,1,66,12.47,0.2364,36.38,0

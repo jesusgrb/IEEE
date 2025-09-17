@@ -1,0 +1,5 @@
+Número de muestras: 24
+Muestras en entrenamiento: 16
+Muestras en validación: 8
+MSE en validación: 0.6883
+MAE en validación: 0.6591
